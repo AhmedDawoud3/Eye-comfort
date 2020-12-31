@@ -16,7 +16,7 @@ def main():
     while True:
         try:
             # Wait 20 minutes before sending a notification {Feel free to chnage it}
-            time.sleep(300)
+            time.sleep(1200)
             # Getting the old value for the brightness
             old = sbc.get_brightness()
             # Decreasing the brightness to half its original value
